@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { CheckCircle, Zap, Shield, ArrowRight } from "lucide-react";
+import Navbar from "@/components/Navbar";
 
 const Index = () => {
   const [email, setEmail] = useState('');
@@ -20,6 +21,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <Navbar />
       {/* Hero Section */}
       <section className="py-20 px-4 text-center">
         <h1 className="text-5xl font-bold mb-6">Revolutionize Your Workflow</h1>
