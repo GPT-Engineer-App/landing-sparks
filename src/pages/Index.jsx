@@ -34,7 +34,7 @@ const Index = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <Button>Get Started</Button>
+          <Button className="bg-yellow-400 hover:bg-yellow-500 text-black">Get Started</Button>
         </div>
       </section>
 
